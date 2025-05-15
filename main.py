@@ -1,8 +1,6 @@
-
 import logging
 import os
-import telegram
-from telegram.ext import CommandHandler, Updater
+from telegram.ext import Updater, CommandHandler
 from google.oauth2.service_account import Credentials
 import gspread
 
