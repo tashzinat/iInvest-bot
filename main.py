@@ -36,8 +36,7 @@ def portfolio(update, context):
     if not data:
         update.message.reply_text("Не удалось получить данные. Проверь подключение к таблице.")
         return
-    message = "📊 Твой портфель:
-"
+    message = "📊 Твой портфель:\n"
     for row in data:
         asset = row.get("Актив", "N/A")
         value = row.get("Текущая стоимость (€)", 0)
