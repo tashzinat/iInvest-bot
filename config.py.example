@@ -1,0 +1,6 @@
+
+# Переименуй этот файл в config.py и замени значения на свои
+
+BOT_TOKEN = "твой_токен_от_BotFather"
+SHEET_URL = "ссылка_на_таблицу_Google"
+OWNER_CHAT_ID = "твой_telegram_ID"
